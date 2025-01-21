@@ -1,7 +1,30 @@
 body{
-    text-align: center;
+    background-image: url(gow.png);
     background-color: #f0f0f0;
+    background-position: center;
     font-family: Arial, sans-serif;
-    margin: 1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
     padding: 0;
+}
+
+#myClock{
+    display: flex  ;
+    justify-content: center;
+    
+    align-items: center;
+
+    height : 100vh;
+    
+}
+
+#clock{
+    font-size: 100px;
+    color: #be5454;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 10px #333;
 }
